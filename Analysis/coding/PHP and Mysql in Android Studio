@@ -1,0 +1,27 @@
+<?xml version=”1.0″ encoding=”UTF-8″?>
+
+-<ScrollView android:fillViewport=”true” android:layout_height=”fill_parent” android:layout_width=”fill_parent” xmlns:android=”http://schemas.android.com/apk/res/android”>
+
+
+ 
+
+-<RelativeLayout android:layout_height=”wrap_content” android:layout_width=”match_parent”>
+
+
+-<LinearLayout android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/linearLayout” android:paddingRight=”24dp” android:paddingLeft=”24dp” android:layout_centerInParent=”true” android:orientation=”vertical”>
+
+<EditText android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/editName” android:focusableInTouchMode=”true” android:focusable=”true” android:fontFamily=”sans-serif-light” android:textColorHint=”#A0192133″ android:textColor=”#FF192133″ android:hint=”Username”/>
+
+<EditText android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/editPassword” android:focusableInTouchMode=”true” android:focusable=”true” android:fontFamily=”sans-serif-light” android:textColorHint=”#A0192133″ android:textColor=”#FF192133″ android:hint=”Password” android:inputType=”textPassword”/>
+
+<EditText android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/editEmail” android:focusableInTouchMode=”true” android:focusable=”true” android:fontFamily=”sans-serif-light” android:textColorHint=”#A0192133″ android:textColor=”#FF192133″ android:hint=”Email” android:inputType=”textEmailAddress” android:visibility=”gone”/>
+
+<Button android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/btnSignIn” android:textStyle=”bold” android:text=”SIGN IN”/>
+
+<Button android:layout_height=”wrap_content” android:layout_width=”match_parent” android:id=”@+id/btnRegister” android:textStyle=”bold” android:text=”REGISTER”/>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>
